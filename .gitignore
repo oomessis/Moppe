@@ -1,3 +1,7 @@
+# Do not publish
+config.py
+tokens.ini
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
