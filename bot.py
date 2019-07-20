@@ -5,7 +5,7 @@ import sys
 import config
 import aiohttp
 import asyncio
-import asyncpg
+#import asyncpg
 import logging  # logging
 import logging.handlers
 import traceback
@@ -62,8 +62,9 @@ game = discord.Game("Pythonized!")
 
 initial_extensions = (
     'commands.meta',
-    'commands.random',
-    'commands.watch'
+    'commands.watch',
+    'commands.dice',
+    'commands.rps',
 )
 
 
